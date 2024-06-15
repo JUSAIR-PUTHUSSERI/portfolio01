@@ -1,0 +1,254 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F0F8FF;
+    background: #000;
+    height: 4rem;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+.logoName{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoName h4{
+    color: aqua;
+}
+.listItems{
+       
+    /* border: 2px solid green; */
+    font-size: 1.4rem;
+    
+}
+.list{
+    /* border:2px solid red; */
+    margin: 25px;
+    cursor: pointer;
+    
+}
+.list:hover{
+    border-bottom: 4px solid aqua;
+    /* border: 2px solid yellow; */
+}
+.contact-btn{
+    /* border: 2px solid red; */
+    width: 9rem;
+    height: 2.3rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    background: aqua;
+}
+.navbar i{
+    display: none;
+    position: fixed;
+}
+
+.navbar2 {
+    display: none;
+    height: 8rem;
+    margin-top: 25rem;
+    background: #F0F8FF;
+    /* border: 2px solid red; */
+    
+}
+
+
+@media (max-width: 1200px) {
+    .logoName{
+        font-size: 2rem;
+    }
+    .listItems{
+        font-size: 1.4rem;
+    }
+    .list{
+        margin: 25px;        
+    }
+    .contact-btn{
+        width: 9rem;
+        height: 2.3rem;
+        font-size: 1.5rem;
+    
+    }
+}
+@media (max-width: 1100px) {
+    .logoName{
+        font-size: 1.9rem;
+    }
+    .listItems{
+        font-size: 1.3rem;
+    }
+    .list{
+        margin: 23px;        
+    }
+    .contact-btn{
+        width: 8.5rem;
+        height: 2.1rem;
+        font-size: 1.3rem;
+    
+    }
+}
+@media (max-width: 1024px) {
+    .logoName{
+        font-size: 1.8rem;
+    }
+    .listItems{
+        font-size: 1.2rem;
+    }
+    .list{
+        margin: 21px;        
+    }
+    .contact-btn{
+        width: 8.1rem;
+        height: 1.9rem;
+        font-size: 1.2rem;
+    
+    }
+}
+@media (max-width: 991px) {
+    .logoName{
+        font-size: 1.6rem;
+    }
+    .listItems{
+        font-size: 1.1rem;
+    }
+    .list{
+        margin: 19px;        
+    }
+    .contact-btn{
+        width: 7.8rem;
+        height: 1.9rem;
+        font-size: 1.1rem;
+    
+    }
+}
+@media (max-width: 896px) {
+    .logoName{
+        font-size: 1.6rem;
+    }
+    .listItems{
+        font-size: 1.1rem;
+    }
+    .list{
+        margin: 19px;        
+    }
+    .contact-btn{
+        width: 7.8rem;
+        height: 1.9rem;
+        font-size: 1.1rem;
+    
+    }
+}
+@media (max-width: 879px) {
+    .logoName{
+        font-size: 1.5rem;
+    }
+    .listItems{
+        font-size: 1rem;
+    }
+    .list{
+        margin: 18px;        
+    }
+    .contact-btn{
+        width: 7.6rem;
+        height: 1.9rem;
+        font-size: 1rem;
+    
+    }
+}
+@media (max-width: 780px) {
+    .logoName{
+        font-size: 1.4rem;
+    }
+    .listItems{
+        font-size: 90rem;
+    }
+    .list{
+        margin: 17px;        
+    }
+    .contact-btn{
+        width: 7.4rem;
+        height: 1.9rem;
+        font-size: .90rem;
+    
+    }
+}
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .listItems{
+        display: none;
+    }
+    .navbar i{
+        display: contents;
+        font-size: 1.5rem;
+        cursor: pointer;
+      
+
+    }
+    .navbar2{
+            /* background: #1c1e1e; */
+        background: transparent;
+        backdrop-filter: blur(50px);
+        height: 16rem;
+        width: 12rem;
+        display: flex;
+        margin-left: -200px;
+        border-radius: .50rem;
+        color: white;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
+        
+    }
+    .listItems2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        text-align: center;
+        width: 12rem;
+        border-radius: 5px 10px;
+        cursor: pointer;
+        font-size: 1.1rem;        
+        }
+        .list2{
+            width: 12rem;
+            height: 1.5rem;
+
+        }
+        .list2:hover{
+        border-bottom: 2px solid aqua;
+        width: 8rem;
+
+    }
+
+}
+@media (max-width: 580px) {}
+@media (max-width: 450px) {}
+@media (max-width: 365px) {}
+@media (max-width: 315px) {}
+
+   
