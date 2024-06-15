@@ -14,8 +14,8 @@ const About = () => {
                 <p>Currently i&apos;am not working i&apos;am doing  
                 masters in computer science in calicut
                  university in kerala, I&apos;  am 
-                  continuously learning new things from Utube and 
-                  other some online platforms   </p>
+                  continuously learning new ideas from YouTube and 
+                  some other online platforms   </p>
             </div>
                   <button className='border-solid border-2 border-cyan-400 hover:text-black hover:bg-cyan-400'>Dowload CV</button>
         </div>
