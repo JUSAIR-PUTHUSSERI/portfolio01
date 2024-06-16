@@ -13,7 +13,7 @@ const About = () => {
             <div className="about-desc">
                 <p>Currently i&apos;am not working i&apos;am doing  
                 masters in computer science in calicut
-                 university in kerala, I&apos;  am 
+                 university, I&apos;  am 
                   continuously learning new ideas from YouTube and 
                   some other online platforms   </p>
             </div>
