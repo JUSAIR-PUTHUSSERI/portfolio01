@@ -17,7 +17,7 @@ const About = () => {
                   continuously learning new ideas from YouTube and 
                   some other online platforms   </p>
             </div>
-                  <button className='border-solid border-2 border-cyan-400 hover:text-black hover:bg-cyan-400'>Dowload CV</button>
+                  <button className='border-solid border-2 border-cyan-400 hover:text-black hover:bg-cyan-400'>Download CV</button>
         </div>
     </div>
   )
